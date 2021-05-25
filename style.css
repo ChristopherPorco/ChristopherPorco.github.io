@@ -1,41 +1,51 @@
-body{
+body {
 	/* background-color: #e8e8e1; */
 	/* color: #1f1f1f; */
 	background-color: #cfbfa9;
 	color: #404040;
-
-	font-family: Arial, Helvetica, sans-serif
-	font-size: 12px;
-	font-weight: normal;
-	/* Same as above */
 	font: normal 12px Arial, Helvetica, sans-serif;
-
 	line-height: 1.6em;
 	margin: 0;
 }
 
-.title{
-	padding: 350px 0;
+.title {
+	padding: 300px;
+	padding-bottom: 0px;
 	text-align:center;
 	color: #404040;
-	font: bold 32px "Lucida Console", "Courier New", monospace;
+	font: bold 16px "Lucida Console", "Courier New", monospace;
 }
 
-.fix-me{
-	position: fixed;
-	top:300px;
-}
-
-a{
+a {
 	text-decoration: none;
 	color: #404040;
 }
 
-a:hover{
+a:hover {
 	/* color: #ffb921; */
 	color: #ffb20a;
 }
 
-/* a:visited{
-	color: #2e2e2e;
-} */
+.loading {
+	display: flex;
+	text-align:center;
+	color: #404040;
+	font: bold 18px "Lucida Console", "Courier New", monospace;
+	/* Animation */
+	overflow: hidden;
+	border-right: .15em solid;
+	white-space: nowrap;
+	/* margin: 0 auto; */
+	margin-left: 43%;
+	margin-right: 44%;
+	letter-spacing: .15em;
+	animation: typing 5s steps(14, end), blink-caret .357s step-end infinite;
+}
+
+@keyframes typing {
+	from { width: 0px } to { width: 185px }
+}
+  
+@keyframes blink-caret {
+	from, to { border-color: transparent } 50% { border-color: #404040; }
+}
