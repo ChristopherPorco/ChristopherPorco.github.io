@@ -1,2 +1,1 @@
-# https://christopherpor.co
-Just some website code :)
+# Just some website code :)
