@@ -23,7 +23,8 @@ a {
 
 a:hover {
 	/* color: #ffb921; */
-	color: #ffb20a;
+	/* color: #ffb20a; */
+	color: red;
 }
 
 .loading {
