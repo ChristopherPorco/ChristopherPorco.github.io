@@ -1,6 +1,8 @@
 body{
-	background-color: #e8e8e1; 
-	color: #1f1f1f;
+	/* background-color: #e8e8e1; */
+	/* color: #1f1f1f; */
+	background-color: #cfbfa9;
+	color: #404040;
 
 	font-family: Arial, Helvetica, sans-serif
 	font-size: 12px;
@@ -15,7 +17,7 @@ body{
 .title{
 	padding: 350px 0;
 	text-align:center;
-	color: #2e2e2e;
+	color: #404040;
 	font: bold 32px "Lucida Console", "Courier New", monospace;
 }
 
@@ -26,11 +28,12 @@ body{
 
 a{
 	text-decoration: none;
-	color: #2e2e2e;
+	color: #404040;
 }
 
 a:hover{
-	color: #ffb921;
+	/* color: #ffb921; */
+	color: #ffb20a;
 }
 
 /* a:visited{
