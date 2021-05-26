@@ -33,7 +33,7 @@ a:hover {
 	border-right: .15em solid;
 	white-space: nowrap;
 	margin-left: 43.5%;
-	margin-right: 43.5%;
+	margin-right: 625px;
 	letter-spacing: .15em;
 	animation: typing 5s steps(14, end), blink-caret .357s step-end infinite;
 }
