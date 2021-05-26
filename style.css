@@ -36,9 +36,8 @@ a:hover {
 	overflow: hidden;
 	border-right: .15em solid;
 	white-space: nowrap;
-	/* margin: 0 auto; */
-	margin-left: 43%;
-	margin-right: 44%;
+	margin-left: 43.5%;
+	margin-right: 43.5%;
 	letter-spacing: .15em;
 	animation: typing 5s steps(14, end), blink-caret .357s step-end infinite;
 }
