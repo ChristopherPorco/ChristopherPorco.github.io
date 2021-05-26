@@ -1,8 +1,6 @@
 body {
-	/* background-color: #e8e8e1; */
-	/* color: #1f1f1f; */
-	background-color: #cfbfa9;
-	color: #404040;
+	background-color: #fff7ed;
+	color: #949494;
 	font: normal 12px Arial, Helvetica, sans-serif;
 	line-height: 1.6em;
 	margin: 0;
@@ -12,25 +10,23 @@ body {
 	padding: 300px;
 	padding-bottom: 0px;
 	text-align:center;
-	color: #404040;
+	color: #949494;
 	font: bold 16px "Lucida Console", "Courier New", monospace;
 }
 
 a {
 	text-decoration: none;
-	color: #404040;
+	color: #949494;
 }
 
 a:hover {
-	/* color: #ffb921; */
-	/* color: #ffb20a; */
-	color: red;
+	color: #ffaf03;
 }
 
 .loading {
 	display: flex;
 	text-align:center;
-	color: #404040;
+	color: #949494;
 	font: bold 18px "Lucida Console", "Courier New", monospace;
 	/* Animation */
 	overflow: hidden;
@@ -43,9 +39,9 @@ a:hover {
 }
 
 @keyframes typing {
-	from { width: 0px } to { width: 185px }
+	from { width: 0px } to { width: 187px }
 }
   
 @keyframes blink-caret {
-	from, to { border-color: transparent } 50% { border-color: #404040; }
+	from, to { border-color: transparent } 50% { border-color: #949494; }
 }
