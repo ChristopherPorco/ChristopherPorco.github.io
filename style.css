@@ -2,6 +2,7 @@ body {
 	background-color: #fff7ed;
 	color: #949494;
 	font: normal 16px Arial, Helvetica, sans-serif;
+	text-align:center;
 	/* line-height: 1.6em; */
 	/* margin: 0; */
 }
@@ -10,7 +11,7 @@ body {
 	text-align:center;
 	color: #949494;
 	font: bold 16px "Lucida Console", "Courier New", monospace;
-	margin: 21% 30% 0em 30%;
+	margin: 21% 35% 0;
 }
 
 a {
