@@ -1,16 +1,16 @@
 body {
 	background-color: #fff7ed;
 	color: #949494;
-	font: normal 12px Arial, Helvetica, sans-serif;
+	font: normal 16px Arial, Helvetica, sans-serif;
 	/* line-height: 1.6em; */
 	/* margin: 0; */
 }
 
 .title {
 	text-align:center;
-	margin: 21% 25% 0em;
 	color: #949494;
 	font: bold 16px "Lucida Console", "Courier New", monospace;
+	margin: 21% 30% 0em 30%;
 }
 
 a {
@@ -28,19 +28,30 @@ a:hover {
 	font: bold 18px "Lucida Console", "Courier New", monospace;
 	/* Animation */
 	/* display: flex; */
-	/* overflow: hidden;
-	border-right: .15em solid;
+	overflow: hidden;
+	border-right: .18em solid;
 	white-space: nowrap;
+	/* width: 13%; */
 	margin-left: 43.5%;
 	margin-right: 43.5%;
+	/* margin-left: 618px;
+	margin-right: 618px; */
 	letter-spacing: .15em;
-	animation: typing 5s steps(14, end), blink-caret .357s step-end infinite; */
+	/* height: 50%; */
+	animation-fill-mode: forwards;
+	animation: typing 5s steps(14, end), blink-caret .357s step-end infinite;
+	animation: typing 5s steps(14, end), blink-caret .357s step-end infinite, 
+		hold 5s linear 5s infinite;
 }
 
-/* @keyframes typing {
+@keyframes typing {
 	from { width: 0px } to { width: 187px }
 }
   
 @keyframes blink-caret {
 	from, to { border-color: transparent } 50% { border-color: #949494; }
-} */
+}
+
+@keyframes hold {
+	from { min-width: 187px } to { min-width: 187px };
+}
