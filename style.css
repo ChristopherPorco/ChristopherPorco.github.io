@@ -7,9 +7,10 @@ body {
 }
 
 .title {
-	padding: 300px;
-	padding-bottom: 0px;
+	/* padding: 300px;
+	padding-bottom: 0px; */
 	text-align:center;
+	margin: 21% auto;
 	color: #949494;
 	font: bold 16px "Lucida Console", "Courier New", monospace;
 }
@@ -33,7 +34,7 @@ a:hover {
 	border-right: .15em solid;
 	white-space: nowrap;
 	margin-left: 43.5%;
-	margin-right: 625px;
+	margin-right: 43.5%;
 	letter-spacing: .15em;
 	animation: typing 5s steps(14, end), blink-caret .357s step-end infinite;
 }
