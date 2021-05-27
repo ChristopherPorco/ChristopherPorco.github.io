@@ -8,10 +8,10 @@ body {
 }
 
 .title {
-	text-align:center;
 	color: #949494;
 	font: bold 16px "Lucida Console", "Courier New", monospace;
-	margin: 21% 20% 0;
+	padding-top: 275px;
+	margin: auto 0;
 }
 
 a {
@@ -24,7 +24,6 @@ a:hover {
 }
 
 .loading {
-	text-align:center;
 	color: #949494;
 	font: bold 18px "Lucida Console", "Courier New", monospace;
 	/* Animation */
