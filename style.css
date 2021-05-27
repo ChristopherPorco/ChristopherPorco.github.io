@@ -2,15 +2,13 @@ body {
 	background-color: #fff7ed;
 	color: #949494;
 	font: normal 12px Arial, Helvetica, sans-serif;
-	line-height: 1.6em;
-	margin: 0;
+	/* line-height: 1.6em; */
+	/* margin: 0; */
 }
 
 .title {
-	/* padding: 300px;
-	padding-bottom: 0px; */
 	text-align:center;
-	margin: 21% 25%;
+	margin: 21% 25% 0em;
 	color: #949494;
 	font: bold 16px "Lucida Console", "Courier New", monospace;
 }
@@ -25,24 +23,24 @@ a:hover {
 }
 
 .loading {
-	display: flex;
 	text-align:center;
 	color: #949494;
 	font: bold 18px "Lucida Console", "Courier New", monospace;
 	/* Animation */
-	overflow: hidden;
+	/* display: flex; */
+	/* overflow: hidden;
 	border-right: .15em solid;
 	white-space: nowrap;
 	margin-left: 43.5%;
 	margin-right: 43.5%;
 	letter-spacing: .15em;
-	animation: typing 5s steps(14, end), blink-caret .357s step-end infinite;
+	animation: typing 5s steps(14, end), blink-caret .357s step-end infinite; */
 }
 
-@keyframes typing {
+/* @keyframes typing {
 	from { width: 0px } to { width: 187px }
 }
   
 @keyframes blink-caret {
 	from, to { border-color: transparent } 50% { border-color: #949494; }
-}
+} */
